@@ -1,0 +1,47 @@
+PODS:
+  - Apptics-SDK/Core (1.0.0)
+  - Apptics-SDK/CrashKit (1.0.0)
+  - Apptics-SDK/Scripts (1.0.0)
+  - AppticsFeedbackKit (1.0.0):
+    - AppticsFeedbackKit/FeedbackKit (= 1.0.0)
+  - AppticsFeedbackKit/FeedbackKit (1.0.0):
+    - Apptics-SDK/Core (= 1.0.0)
+  - AppticsRateUs (1.0.0):
+    - AppticsRateUs/RateUs (= 1.0.0)
+  - AppticsRateUs/RateUs (1.0.0):
+    - Apptics-SDK/Core (= 1.0.0)
+    - AppticsFeedbackKit (= 1.0.0)
+  - ZCatalyst (2.2.0):
+    - Apptics-SDK/Core (= 1.0.0)
+    - Apptics-SDK/CrashKit (= 1.0.0)
+    - Apptics-SDK/Scripts (= 1.0.0)
+    - AppticsFeedbackKit (= 1.0.0)
+    - AppticsRateUs (= 1.0.0)
+
+DEPENDENCIES:
+  - ZCatalyst (from `https://github.com/zoho/Catalyst-iOS-SDK.git`)
+
+SPEC REPOS:
+  trunk:
+    - Apptics-SDK
+    - AppticsFeedbackKit
+    - AppticsRateUs
+
+EXTERNAL SOURCES:
+  ZCatalyst:
+    :git: https://github.com/zoho/Catalyst-iOS-SDK.git
+
+CHECKOUT OPTIONS:
+  ZCatalyst:
+    :commit: 355a6d831f05c872eae309e9b3ee5b9e6fd05642
+    :git: https://github.com/zoho/Catalyst-iOS-SDK.git
+
+SPEC CHECKSUMS:
+  Apptics-SDK: 8abe38296db29837db6227dd49567451edc580ba
+  AppticsFeedbackKit: 97bd843926fd1afbe630c1508219046a9dcd35af
+  AppticsRateUs: e382b3d6cd1a27e869daadaf80fd3c9763796752
+  ZCatalyst: 9161b5d8fad6ea7c2517c57a99011f9bc12a3189
+
+PODFILE CHECKSUM: eadb3d2c259e8994d0efda9b0869e7f2d52b407c
+
+COCOAPODS: 1.15.2
